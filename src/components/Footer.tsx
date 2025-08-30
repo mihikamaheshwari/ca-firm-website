@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Calculator, Phone, Mail, MapPin, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <Calculator className="h-8 w-8 text-white" />
+              <img src={logo} alt="Lalit Kabra & Company Logo" className="h-10 w-10 object-contain" />
               <div>
-                <h3 className="text-xl font-bold text-white">M/s. Lalit Kabra & Co.</h3>
+                <h3 className="text-xl font-bold text-white">Lalit Kabra & Company</h3>
                 <p className="text-warm-cream/90">Chartered Accountants</p>
               </div>
             </div>
@@ -57,7 +58,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="h-5 w-5 text-warm-cream mt-0.5 flex-shrink-0" />
                 <div>
-                  <p className="text-[#F8F8F5]/80 text-sm">Head Office: +91-9887610105, +9101482451727</p>
+                  <p className="text-[#F8F8F5]/80 text-sm">Head Office: +91-9887610105, +911482451727</p>
                   <p className="text-[#F8F8F5]/80 text-sm">Branch Office: +91-98290-66538</p>
                 </div>
               </div>
@@ -74,7 +75,7 @@ const Footer = () => {
 
         <div className="border-t border-warm-cream/30 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-[#F8F8F5]/60 text-sm">
-            © 2024 M/s. Lalit Kabra & Co. All rights reserved.
+            © 2024 Lalit Kabra & Company. All rights reserved.
           </p>
           <p className="text-[#F8F8F5]/60 text-sm mt-2 md:mt-0">
             ICAI Membership: 123456 | Firm Registration: 12345N

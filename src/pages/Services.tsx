@@ -16,8 +16,8 @@ const Services = () => {
     {
       icon: FileCheck,
       title: 'Audit & Assurance',
-      description: 'Comprehensive audit services ensuring compliance with regulatory requirements and providing valuable insights for business improvement.',
-      features: ['Statutory Audits', 'Internal Audits', 'Tax Audits', 'Management Audits'],
+      description: 'Comprehensive audit services including Statutory, Internal, GST, and Bank audits ensuring compliance with regulatory requirements.',
+      features: ['Statutory Audits', 'GST Audit', 'Bank Audit', 'Internal Audits'],
       link: '/services/audit-assurance'
     },
     {
@@ -30,8 +30,8 @@ const Services = () => {
     {
       icon: BookOpen,
       title: 'Bookkeeping Services',
-      description: 'Professional bookkeeping and accounting services to maintain accurate financial records and streamline your operations.',
-      features: ['Financial Statements', 'Account Maintenance', 'MIS Reports', 'Cash Flow Management'],
+      description: 'Professional local and international bookkeeping & accounting services to maintain accurate financial records and streamline your operations.',
+      features: ['Local Bookkeeping', 'International Accounting', 'Financial Statements', 'MIS Reports'],
       link: '/services/bookkeeping-services'
     },
     {
@@ -163,9 +163,9 @@ const Services = () => {
                 Comprehensive <span className="text-warm-cream">Financial Solutions</span>
               </h3>
               <p className="text-xl text-[#F8F8F5]/90 leading-relaxed mb-8">
-                From audit and assurance to taxation compliance, our expert team provides 
-                end-to-end financial services designed to support your business growth and 
-                ensure regulatory compliance across all sectors.
+                From comprehensive audit services including GST and Bank audits to taxation compliance 
+                and international bookkeeping, our expert team provides end-to-end financial solutions 
+                designed to support your business growth and ensure regulatory compliance across all sectors.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">

@@ -28,10 +28,10 @@ const Home = () => {
   ];
 
   const services = [
-    { title: 'Audit & Assurance', description: 'Comprehensive audit services with precision and compliance' },
+    { title: 'Audit & Assurance (incl. GST & Bank)', description: 'Comprehensive audit services including specialized GST and Bank audits' },
     { title: 'Taxation & Compliance', description: 'Expert tax planning and regulatory compliance solutions' },
+    { title: 'Local & International Bookkeeping', description: 'Professional bookkeeping services for local and international businesses' },
     { title: 'Financial Advisory', description: 'Strategic financial guidance for business growth' },
-    { title: 'Company Law Advisory', description: 'Complete corporate law and governance solutions' },
   ];
 
   const whyChooseUs = [

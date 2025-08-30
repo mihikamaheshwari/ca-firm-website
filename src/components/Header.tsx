@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion';
+import logo from '../assets/logo.png';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,9 +38,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="bg-warm-cream text-[#0B2545] rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg">
-              CA
-            </div>
+            <img src={logo} alt="Lalit Kabra & Company Logo" className="h-10 w-10 object-contain group-hover:opacity-80 transition-opacity" />
             <div>
               <h1 className="text-xl font-bold text-white">Lalit Kabra & Company</h1>
               <p className="text-sm text-warm-cream/90">Chartered Accountants</p>

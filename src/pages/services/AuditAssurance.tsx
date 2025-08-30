@@ -25,13 +25,33 @@ const AuditAssurance = () => {
       ]
     },
     {
+      title: 'GST Audit',
+      description: 'Specialized GST audit services ensuring complete compliance with GST regulations and optimization of tax positions.',
+      details: [
+        'GST compliance verification and review',
+        'Input tax credit reconciliation',
+        'GST return accuracy assessment',
+        'GST refund claim verification and support'
+      ]
+    },
+    {
+      title: 'Bank Audit',
+      description: 'Specialized banking sector audit services covering regulatory compliance and risk management for financial institutions.',
+      details: [
+        'RBI compliance audit for banks',
+        'Credit portfolio risk assessment',
+        'Banking operations efficiency review',
+        'Regulatory reporting verification'
+      ]
+    },
+    {
       title: 'Tax Audits',
-      description: 'Specialized tax audit services to ensure compliance with tax regulations and optimize tax positions.',
+      description: 'Comprehensive tax audit services to ensure compliance with tax regulations and optimize tax positions.',
       details: [
         'Income Tax audit under Section 44AB',
-        'GST audit and compliance verification',
-        'Tax provision reviews',
-        'Transfer pricing documentation'
+        'Tax provision reviews and assessments',
+        'Transfer pricing documentation',
+        'Tax planning and compliance verification'
       ]
     },
     {

@@ -80,8 +80,8 @@ const Team = () => {
       bio: 'Mihika Maheshwari serves as our Tech Head, bringing innovation and technical excellence to our digital infrastructure.',
       detailedBio: 'Mihika Maheshwari is a talented technology professional who spearheads our firm\'s digital transformation initiatives. With her B.Tech in Computer Science and growing experience in the field, she has quickly established herself as a key driver of technological innovation within our organization.',
       achievements: ['Developed custom accounting software solutions', 'Implemented digital workflow systems', 'Led database optimization projects'],
-      education: ['B.Tech in Computer Science from PES University, Bangalore', 'Certified in Advanced Database Management'],
-      email: 'pavikabra123@gmail.com',
+      education: ['B.Tech in Computer Science from RTU Kota', 'Certified in Advanced Database Management'],
+      email: 'mihika@lalitkabra.com',
       phone: '+91-9887610105',
       image: '/images/team/anita-joshi.jpg'
     },
@@ -94,8 +94,8 @@ const Team = () => {
       bio: 'Mohammad Yameen Rafiqi is our co-Tech Head, working alongside our technology team to deliver innovative digital solutions.',
       detailedBio: 'Mohammad Yameen Rafiqi is a dedicated technology professional who works as part of our technology leadership team. With his B.Tech in Computer Science and focused experience in web development and system management, he plays a crucial role in maintaining and advancing our technological capabilities.',
       achievements: ['Developed client portal and web applications', 'Implemented system security protocols', 'Led web development projects'],
-      education: ['B.Tech in Computer Science from PES University, Bangalore', 'Certified in Web Development Technologies'],
-      email: 'yameem369@gmail.com',
+      education: ['B.Tech in Computer Science from RTU Kota', 'Certified in Web Development Technologies'],
+      email: 'yameen@lalitkabra.com',
       phone: '+91-9887610105',
       image: '/images/team/rahul-verma.jpg'
     },

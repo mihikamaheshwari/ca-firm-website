@@ -5,6 +5,26 @@ import { BookOpen, CheckCircle, ArrowLeft, ArrowRight, BarChart, DollarSign, Fil
 const BookkeepingServices = () => {
   const offerings = [
     {
+      title: 'Local Bookkeeping Services',
+      description: 'Comprehensive bookkeeping solutions for Indian businesses with complete compliance and accurate financial reporting.',
+      details: [
+        'GST compliant bookkeeping',
+        'Indian accounting standards compliance',
+        'Local tax preparation and filing',
+        'Regulatory reporting for Indian authorities'
+      ]
+    },
+    {
+      title: 'International Bookkeeping & Accounting',
+      description: 'Professional bookkeeping services for international clients and global business operations.',
+      details: [
+        'Multi-currency transaction recording',
+        'International accounting standards (IFRS)',
+        'Cross-border compliance management',
+        'Global financial reporting and analysis'
+      ]
+    },
+    {
       title: 'Financial Statements',
       description: 'Accurate preparation of comprehensive financial statements including P&L, Balance Sheet, and Cash Flow statements.',
       details: [
@@ -15,16 +35,6 @@ const BookkeepingServices = () => {
       ]
     },
     {
-      title: 'Account Maintenance',
-      description: 'Complete maintenance of books of accounts with systematic recording of all financial transactions.',
-      details: [
-        'Daily transaction recording',
-        'Bank reconciliation statements',
-        'Accounts receivable and payable management',
-        'Fixed asset register maintenance'
-      ]
-    },
-    {
       title: 'MIS Reports',
       description: 'Management Information System reports providing crucial business insights for informed decision making.',
       details: [
@@ -32,16 +42,6 @@ const BookkeepingServices = () => {
         'Cash flow analysis and projections',
         'Budget vs actual analysis',
         'Key performance indicators tracking'
-      ]
-    },
-    {
-      title: 'Cash Flow Management',
-      description: 'Comprehensive cash flow monitoring and management to ensure optimal working capital utilization.',
-      details: [
-        'Daily cash position monitoring',
-        'Cash flow forecasting',
-        'Working capital optimization',
-        'Liquidity management strategies'
       ]
     }
   ];
@@ -118,7 +118,7 @@ const BookkeepingServices = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-xl text-warm-cream/90 max-w-3xl mx-auto leading-relaxed"
             >
-              Professional bookkeeping and accounting services to maintain accurate financial records and streamline your operations
+              Professional local and international bookkeeping & accounting services to maintain accurate financial records and streamline your operations
             </motion.p>
           </div>
         </div>

@@ -32,16 +32,16 @@ const Contact = () => {
       city: 'Bhilwara (Head Office)',
       address: '134, First Floor, "Govindam", Old RTO Road, Bhilwara – 311001, Rajasthan (India)',
       phone: '+91-9887610105',
-      phone2: '+9101482451727',
+      phone2: '+911482451727',
       email: 'calalit18@gmail.com',
-      hours: 'Mon - Sat: 9:00 AM - 6:00 PM'
+      hours: 'Mon - Sat: 10:00 AM - 7:00 PM'
     },
     {
       city: 'Jaipur (Branch Office)',
       address: 'Shop No. 10, First Floor, Jayanti Bazaar, M.I. Road, Jaipur – 302001, Rajasthan (India)',
       phone: '+91-98290-66538',
       email: 'kabra_lalit@yahoo.co.in',
-      hours: 'Mon - Sat: 9:00 AM - 6:00 PM'
+      hours: 'Mon - Sat: 10:00 AM - 7:00 PM'
     }
   ];
 
